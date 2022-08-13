@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+  <input type="text" id ="ten"  placeholder="Nhap ten">
+    <input type="text" id ="link"  placeholder="Nhap link fb">
+      <button id="btn" onclick="facebook()">Click me</button>
+      <h2 id="name"></h2>
+      <a href="" id="fb"></a>
+    </body>
+    <script>
+      function facebook (){
+      let ten = document.getElementById("ten").value
+      let fb = document.getElementById("link").value
+      document.getElementById("name").innerHTML = ten
+      document.getElementById("face").href = fb
+      document.getElementById("face").innerHTML = 'Facebook'
+    }
+</script>
+
+</body>
+</html>
